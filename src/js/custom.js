@@ -154,6 +154,11 @@ $(document).ready(function() {
     }, { offset: 'bottom-in-view' });
 });
 
+
+/**
+ * Inject SVG
+ */
+
 $(document).ready(function() {
     var mySVGsToInject = document.querySelectorAll('.svg-inject');
     SVGInjector(mySVGsToInject);
