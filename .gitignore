@@ -5,11 +5,6 @@ logs
 
 .DS_Store
 
-### Spec
-css/*
-js/*
-
-
 # Runtime data
 pids
 *.pid
