@@ -30,6 +30,5 @@ gulp.task('build-js', function() {
         .pipe(gulp.dest('js'));
 });
 
-
 gulp.task('build', ['build-css', 'build-js']);
 gulp.task('default', ['build']);
