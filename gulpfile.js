@@ -23,7 +23,7 @@ gulp.task('build-js', function() {
             'src/js/plugins/lightbox.js',
             'src/js/plugins/contact.js',
             'src/js/plugins/svg-injector.min.js',
-            'src/js/custom.js'
+            'src/js/custom.js',
             ])
         .pipe(uglify())
         .pipe(concat('application.min.js'))
